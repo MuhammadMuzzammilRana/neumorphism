@@ -38,15 +38,18 @@ button{
     background-color: rgb(0, 94, 255);
     color: whitesmoke;
     border: none;
+    outline: rgb(0, 94, 255);
     padding: 10px;
     width: 150px;
     border-radius: 50px;
     cursor: pointer;
+    transition: ease-in-out 0.65s;
 }
 button:hover{
     background-color: transparent;
     color: black;
     outline: rgb(0, 94, 255);
+    transition: ease-in-out 0.65s;
 }
 .inputs{
     outline: none;
@@ -54,6 +57,5 @@ button:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
-
 
 
